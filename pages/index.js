@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -6,7 +7,11 @@ export default function Home() {
       <Head>
         <title>Hulu clone</title>
       </Head>
-      <h1>Here is the start of hulu clone</h1>
+      <Header />
+
+      {/* NavBar */}
+
+      {/* MainResults */}
     </div>
   );
 }

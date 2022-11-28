@@ -1,14 +1,15 @@
 {
   // "editor.lineHeight": 21,
   "editor.fontWeight": 500,
-  "editor.fontSize": 13.5,
-  // "editor.fontSize": 11.5,
+  // "editor.fontSize": 13.6,
+  "editor.fontSize": 11.2,
   // "editor.fontFamily": "Roboto Mono Regular",
   // "editor.fontFamily": "SF Mono",
   // "editor.fontFamily": "JetBrains Mono",
   // "editor.fontFamily": "Consolas, 'Courier New', monospace",
-  "editor.fontFamily": "Inconsolata",
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  // "editor.fontFamily": "Inconsolata",
+  "editor.fontFamily": "IBM Plex Mono",
+  "workbench.colorTheme": "Kanagawa",
   "cSpell.words": ["Firestore"],
   "editor.fontLigatures": true
 }
