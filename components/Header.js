@@ -26,6 +26,7 @@ function Header() {
         width={200}
         height={200}
         alt="logo"
+        priority={100}
       />
     </header>
   );

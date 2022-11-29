@@ -1,7 +1,11 @@
-function MainContent() {
+import Thumbnail from "./Thumbnail";
+
+function MainContent({ results }) {
   return (
     <div>
-      <h1>main content hello</h1>
+      {results.map((result) => (
+        <Thumbnail key={result.id} result={result} />
+      ))}
     </div>
   );
 }

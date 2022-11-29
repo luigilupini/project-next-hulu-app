@@ -9,7 +9,7 @@
   //   // "editor.fontFamily": "Consolas, 'Courier New', monospace",
   //   "editor.fontFamily": "Inconsolata",
   //   // "editor.fontFamily": "IBM Plex Mono",
-  // "workbench.colorTheme": "Cobalt Next",
+  "workbench.colorTheme": "Kanagawa",
   "cSpell.words": ["Firestore"]
   //   "editor.fontLigatures": true
 }

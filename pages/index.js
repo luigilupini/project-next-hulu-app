@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import requests from "../utils/requests";
 
 export default function Home({ results }) {
+  console.log(results);
   return (
     <div>
       <Head>
@@ -12,7 +13,7 @@ export default function Home({ results }) {
       </Head>
       <Header />
       <NavBar />
-      <MainContent />
+      <MainContent results={results} />
     </div>
   );
 }
@@ -31,7 +32,7 @@ export async function getServerSideProps(context) {
   ).then((res) => res.json());
   return {
     props: {
-      results: req,
+      results: req.results,
     },
   };
 }
